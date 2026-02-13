@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-text = `Para mi poema favorito:\n\nSi alguna vez sientes que todo va mal, recuerda esto:\n\nDesde el primer momento supe que eras tú. Tu sonrisa, tu voz, tu forma de ser… todo en ti me hace sentir en casa.\n\nTe amo con todo mi ser, de una forma que no conoce límites ni miedos. Si alguna vez la vida intentara herirte, yo estaría dispuesto a que una bala me atravesara primero con tal de verte sonreír.\n\nY si algún día sientes que el mundo se desmorona, no tengas miedo. No estás sola. Yo voy a estar ahí, sosteniéndote, recogiendo cada pedazo, convirtiendo esas ruinas en algo firme para que puedas apoyarte en mí.\n\nSiempre voy a intentar ser tu refugio, tu fuerza cuando la tuya tiemble, y el lugar seguro al que puedas volver.\n\nTe amo más de lo que las palabras pueden expresar.`; 
+text = `Para mi poema favorito:\n\nSi alguna vez sientes que todo va mal, recuerda esto:\n\nSi alguna vez la vida intentara herirte, yo estaría dispuesto a que una bala me atravesara primero con tal de verte sonreír.\n\nY si algún día sientes que el mundo se desmorona, no tengas miedo. No estás sola. Yo voy a estar ahí, sosteniéndote, recogiendo cada pedazo, convirtiendo esas ruinas en algo firme para que puedas apoyarte en mí.\n\nSiempre voy a intentar ser tu refugio, tu fuerza cuando la tuya tiemble, y el lugar seguro al que puedas volver.\n\nTe amo más de lo que las palabras pueden expresar.`; 
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
